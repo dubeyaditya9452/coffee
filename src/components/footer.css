@@ -1,0 +1,49 @@
+/* Updated style for the entire footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 25px;
+    font-family: Arial, sans-serif;
+    height: 250px;
+  }
+  
+  /* Updated style for each column in the footer */
+  .footer-column {
+    text-align: center;
+  }
+  
+  /* Style specifically for the first column */
+  .footer-column:first-child {
+    flex: 0 0 25%; /* Adjust the width as needed */
+  }
+  
+  /* Style for h2 in each column */
+  .footer-column h2 {
+    font-size: 1.6em;
+    margin-bottom: px;
+  }
+  
+  /* Style for paragraphs in each column */
+  .footer-column p {
+    margin: 8px 0;
+    font-size: 18px;
+  }
+  
+  /* Style for links in the footer */
+  .footer-column a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  
+  /* Hover effect for links */
+  .footer-column a:hover {
+    color: #FFCC00;
+  }
+  
